@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C254A4A1DB9F10D00C05891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C254A491DB9F10D00C05891 /* AppDelegate.swift */; };
+		1C254A4C1DB9F10D00C05891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C254A4B1DB9F10D00C05891 /* ViewController.swift */; };
+		1C254A4F1DB9F10D00C05891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C254A4D1DB9F10D00C05891 /* Main.storyboard */; };
+		1C254A511DB9F10D00C05891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C254A501DB9F10D00C05891 /* Assets.xcassets */; };
+		1C254A541DB9F10D00C05891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C254A521DB9F10D00C05891 /* LaunchScreen.storyboard */; };
+		1C254A5F1DB9F10D00C05891 /* FinshTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C254A5E1DB9F10D00C05891 /* FinshTVTests.swift */; };
+		1C254A6A1DB9F10D00C05891 /* FinshTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C254A691DB9F10D00C05891 /* FinshTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C254A5B1DB9F10D00C05891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C254A3E1DB9F10D00C05891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C254A451DB9F10D00C05891;
+			remoteInfo = FinshTV;
+		};
+		1C254A661DB9F10D00C05891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C254A3E1DB9F10D00C05891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C254A451DB9F10D00C05891;
+			remoteInfo = FinshTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C254A461DB9F10D00C05891 /* FinshTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinshTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C254A491DB9F10D00C05891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C254A4B1DB9F10D00C05891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C254A4E1DB9F10D00C05891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C254A501DB9F10D00C05891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C254A531DB9F10D00C05891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C254A551DB9F10D00C05891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C254A5A1DB9F10D00C05891 /* FinshTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinshTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C254A5E1DB9F10D00C05891 /* FinshTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinshTVTests.swift; sourceTree = "<group>"; };
+		1C254A601DB9F10D00C05891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C254A651DB9F10D00C05891 /* FinshTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinshTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C254A691DB9F10D00C05891 /* FinshTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinshTVUITests.swift; sourceTree = "<group>"; };
+		1C254A6B1DB9F10D00C05891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C254A431DB9F10D00C05891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A571DB9F10D00C05891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A621DB9F10D00C05891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C254A3D1DB9F10D00C05891 = {
+			isa = PBXGroup;
+			children = (
+				1C254A481DB9F10D00C05891 /* FinshTV */,
+				1C254A5D1DB9F10D00C05891 /* FinshTVTests */,
+				1C254A681DB9F10D00C05891 /* FinshTVUITests */,
+				1C254A471DB9F10D00C05891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C254A471DB9F10D00C05891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C254A461DB9F10D00C05891 /* FinshTV.app */,
+				1C254A5A1DB9F10D00C05891 /* FinshTVTests.xctest */,
+				1C254A651DB9F10D00C05891 /* FinshTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C254A481DB9F10D00C05891 /* FinshTV */ = {
+			isa = PBXGroup;
+			children = (
+				1C254A491DB9F10D00C05891 /* AppDelegate.swift */,
+				1C254A4B1DB9F10D00C05891 /* ViewController.swift */,
+				1C254A4D1DB9F10D00C05891 /* Main.storyboard */,
+				1C254A501DB9F10D00C05891 /* Assets.xcassets */,
+				1C254A521DB9F10D00C05891 /* LaunchScreen.storyboard */,
+				1C254A551DB9F10D00C05891 /* Info.plist */,
+			);
+			path = FinshTV;
+			sourceTree = "<group>";
+		};
+		1C254A5D1DB9F10D00C05891 /* FinshTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C254A5E1DB9F10D00C05891 /* FinshTVTests.swift */,
+				1C254A601DB9F10D00C05891 /* Info.plist */,
+			);
+			path = FinshTVTests;
+			sourceTree = "<group>";
+		};
+		1C254A681DB9F10D00C05891 /* FinshTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C254A691DB9F10D00C05891 /* FinshTVUITests.swift */,
+				1C254A6B1DB9F10D00C05891 /* Info.plist */,
+			);
+			path = FinshTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C254A451DB9F10D00C05891 /* FinshTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C254A6E1DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTV" */;
+			buildPhases = (
+				1C254A421DB9F10D00C05891 /* Sources */,
+				1C254A431DB9F10D00C05891 /* Frameworks */,
+				1C254A441DB9F10D00C05891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinshTV;
+			productName = FinshTV;
+			productReference = 1C254A461DB9F10D00C05891 /* FinshTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C254A591DB9F10D00C05891 /* FinshTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C254A711DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTVTests" */;
+			buildPhases = (
+				1C254A561DB9F10D00C05891 /* Sources */,
+				1C254A571DB9F10D00C05891 /* Frameworks */,
+				1C254A581DB9F10D00C05891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C254A5C1DB9F10D00C05891 /* PBXTargetDependency */,
+			);
+			name = FinshTVTests;
+			productName = FinshTVTests;
+			productReference = 1C254A5A1DB9F10D00C05891 /* FinshTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C254A641DB9F10D00C05891 /* FinshTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C254A741DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTVUITests" */;
+			buildPhases = (
+				1C254A611DB9F10D00C05891 /* Sources */,
+				1C254A621DB9F10D00C05891 /* Frameworks */,
+				1C254A631DB9F10D00C05891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C254A671DB9F10D00C05891 /* PBXTargetDependency */,
+			);
+			name = FinshTVUITests;
+			productName = FinshTVUITests;
+			productReference = 1C254A651DB9F10D00C05891 /* FinshTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C254A3E1DB9F10D00C05891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "管梦飞";
+				TargetAttributes = {
+					1C254A451DB9F10D00C05891 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CZBT6US35D;
+						ProvisioningStyle = Automatic;
+					};
+					1C254A591DB9F10D00C05891 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C254A451DB9F10D00C05891;
+					};
+					1C254A641DB9F10D00C05891 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C254A451DB9F10D00C05891;
+					};
+				};
+			};
+			buildConfigurationList = 1C254A411DB9F10D00C05891 /* Build configuration list for PBXProject "FinshTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C254A3D1DB9F10D00C05891;
+			productRefGroup = 1C254A471DB9F10D00C05891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C254A451DB9F10D00C05891 /* FinshTV */,
+				1C254A591DB9F10D00C05891 /* FinshTVTests */,
+				1C254A641DB9F10D00C05891 /* FinshTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C254A441DB9F10D00C05891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C254A541DB9F10D00C05891 /* LaunchScreen.storyboard in Resources */,
+				1C254A511DB9F10D00C05891 /* Assets.xcassets in Resources */,
+				1C254A4F1DB9F10D00C05891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A581DB9F10D00C05891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A631DB9F10D00C05891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C254A421DB9F10D00C05891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C254A4C1DB9F10D00C05891 /* ViewController.swift in Sources */,
+				1C254A4A1DB9F10D00C05891 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A561DB9F10D00C05891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C254A5F1DB9F10D00C05891 /* FinshTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C254A611DB9F10D00C05891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C254A6A1DB9F10D00C05891 /* FinshTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C254A5C1DB9F10D00C05891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C254A451DB9F10D00C05891 /* FinshTV */;
+			targetProxy = 1C254A5B1DB9F10D00C05891 /* PBXContainerItemProxy */;
+		};
+		1C254A671DB9F10D00C05891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C254A451DB9F10D00C05891 /* FinshTV */;
+			targetProxy = 1C254A661DB9F10D00C05891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C254A4D1DB9F10D00C05891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C254A4E1DB9F10D00C05891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C254A521DB9F10D00C05891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C254A531DB9F10D00C05891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C254A6C1DB9F10D00C05891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C254A6D1DB9F10D00C05891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C254A6F1DB9F10D00C05891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZBT6US35D;
+				INFOPLIST_FILE = FinshTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1C254A701DB9F10D00C05891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZBT6US35D;
+				INFOPLIST_FILE = FinshTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1C254A721DB9F10D00C05891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinshTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinshTV.app/FinshTV";
+			};
+			name = Debug;
+		};
+		1C254A731DB9F10D00C05891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FinshTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinshTV.app/FinshTV";
+			};
+			name = Release;
+		};
+		1C254A751DB9F10D00C05891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinshTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinshTV;
+			};
+			name = Debug;
+		};
+		1C254A761DB9F10D00C05891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FinshTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.menglifei.FinshTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FinshTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C254A411DB9F10D00C05891 /* Build configuration list for PBXProject "FinshTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C254A6C1DB9F10D00C05891 /* Debug */,
+				1C254A6D1DB9F10D00C05891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C254A6E1DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C254A6F1DB9F10D00C05891 /* Debug */,
+				1C254A701DB9F10D00C05891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C254A711DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C254A721DB9F10D00C05891 /* Debug */,
+				1C254A731DB9F10D00C05891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C254A741DB9F10D00C05891 /* Build configuration list for PBXNativeTarget "FinshTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C254A751DB9F10D00C05891 /* Debug */,
+				1C254A761DB9F10D00C05891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C254A3E1DB9F10D00C05891 /* Project object */;
+}
