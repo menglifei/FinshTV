@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //显示status状态栏
+        UIApplication.shared.setStatusBarHidden(false, with: .none)
+        
+        //显示window主窗口
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = MFTabBarController()
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
